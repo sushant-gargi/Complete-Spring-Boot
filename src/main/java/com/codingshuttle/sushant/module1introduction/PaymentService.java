@@ -24,10 +24,4 @@ public class PaymentService {
         //post init logic
         System.out.println("Before paying.");
     }
-
-    @PreDestroy
-    public void beforeDestroyaaa() {
-        //cleanup logic
-        System.out.println("After payment is done");
-    }
 }
